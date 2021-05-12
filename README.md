@@ -59,7 +59,7 @@ I would like to try and recreate this solution using CSS Grid layout. Probably u
 
 ## Author
 
-- Frontend Mentor - [@ymcdulingm](https://www.frontendmentor.io/profile/mcdulingm)
+- Frontend Mentor - [@mcdulingm](https://www.frontendmentor.io/profile/mcdulingm)
 
 
 ## Acknowledgments
