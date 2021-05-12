@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+  	padding: 0;
+}
+
+.body {
+	background: hsl(0, 0%, 95%);
+	height: 100%;
+}
+
+.card {
+	min-width: 326px;
+	max-width: 920px;
+	min-height: 500px;
+	width: 90%;
+	font-size: 15px;
+	font-family: 'Lexend Deca', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: stretch;
+	margin: 10px auto;
+	border-radius: 10px;
+	overflow:hidden;
+}
+
+.card_column {
+	flex-grow: 1;
+	flex-basis: auto;
+	padding: 30px 54px 30px 45px;
+	position: relative;
+}
+
+.card_column_one {
+	background: hsl(31, 77%, 52%);
+	color: hsl(31, 77%, 52%);
+	
+}
+
+.card_column_two {
+	background: hsl(184, 100%, 22%);
+	color: hsl(184, 100%, 22%);
+}
+
+.card_column_three {
+	background: hsl(179, 100%, 13%);
+	color: hsl(179, 100%, 13%);
+}
+
+img {
+	padding-top: 20px;
+}
+
+h3 {
+	padding-top: 30px;
+	font-size: 2.7em;
+	font-family: 'Big Shoulders Display', cursive;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: hsl(0, 0%, 95%);
+}
+
+p {
+	color: hsla(0, 0%, 100%, 0.75);
+	line-height: 1.7;
+	padding-top: 30px;
+}
+
+button {
+	display: inline-block;
+	position: relative;
+	bottom: 10px;
+	border-radius: 100px;
+	background: hsl(0, 0%, 95%);
+	color: inherit;
+	padding: 15px 30px;
+	margin: 40px auto 10px auto;
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+button:hover {
+	background-color: transparent;
+	color: hsl(0, 0%, 95%);
+	box-shadow:0px 0px 0px 2px hsl(0, 0%, 95%) inset;
+	transition: 0.3s;
+}
+
+.attribution { 
+	font-size: 15px; text-align: center; 
+	font-family: 'Lexend Deca', sans-serif;
+	margin: 10px auto;
+}
+.attribution a { 
+	color: hsl(184, 100%, 22%); 
+}
+
+@media (min-width: 780px) {
+	.card {
+	flex-direction: row;
+	margin: 11.0625rem auto;
+}
+	
+	button {
+	position: absolute;
+	padding: 15px 35px;
+	margin: 10px auto 25px auto;
+}
+	
+}
